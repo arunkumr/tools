@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>IE Conditional Stylesheet Assist by arunkumr</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+   
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+      textarea {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+#Process {
+  background-color: #C6EAFA;
+  border-radius: 3px;
+  border-style: outset;
+  padding: 10px;
+  margin: 0 auto;
+  width: 150px;
+  display: block;
+}
+    </style>
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>IE Conditional Stylesheet Assist</h1>
+        <p>Simple Site to assist in creating a IE only style sheet for Responsive CSS stylesheets</p>
+        <p class="view"><a href="https://github.com/arunkumr/IE-Conditonal-Stylesheet-Generator">View the Project on GitHub <small>arunkumr/IE-Conditonal-Stylesheet-Generator</small></a></p>
+         
+      </header>
+      <section>
+        <p>If you created a stylesheet with media queries and everything and finally want to support IE8 also. Just copy paste your stylesheet here.</p>
+       <tr><td>Specify your target desktop resolution width:</td><td><input type="text" id="pxl" value="1388" size="4"/></td><td>px</td></tr>
+       <textarea id="input"></textarea>
+          <input type="button" id="Process" value="Process"></input>
+          <textarea id="output"></textarea>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/arunkumr">arunkumr</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="javascripts/main.js"></script>
+</html>
